@@ -5,7 +5,7 @@ public class Exercise3_2 {
         int mostDivisorsCount = 1;
         int mostDivisorsNum = 1;
         for (int i = 2; i <= maxNum; i++) {
-            int divisorCount = 0;
+            int divisorCount = 1; // Loop below only goes to half way, so adding 1 to count the number itself
 
             for (int j = 1; j <= i/2; j++) {
                 if (i % j == 0) divisorCount++;

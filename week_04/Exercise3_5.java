@@ -1,9 +1,9 @@
 import textio.TextIO;
 
-public class Exercise3_4 {
+public class Exercise3_5 {
     public static void main(String[] args) {
         // Read file
-        String file = "sales.dat";
+        String file = "Exercise3_5.dat";
         try {
             TextIO.readFile(file);
         } catch (Exception e) {

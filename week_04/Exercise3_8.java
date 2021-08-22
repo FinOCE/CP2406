@@ -11,17 +11,12 @@ public class Exercise3_8 extends Application {
         for (int y = 0; y < 8; y++) {
             for (int x = 0; x < 8; x++) {
                 g.setFill(
-                    ((y + x) % 2 == 0)
+                    (y + x) % 2 == 0 // Red if even index, black if odd index
                         ? Color.RED
                         : Color.BLACK
                 );
 
-                g.fillRect(
-                    x*50,
-                    y*50,
-                    (x+1)*50,
-                    (y+1)*50
-                );
+                g.fillRect(x*50, y*50, 50, 50);
             }
         }
     }

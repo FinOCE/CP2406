@@ -1,8 +1,8 @@
 public class Exercise3_7 {
     public static void main(String[] args) {
-        int Q3_1 = Exercise3_7.Q3_1();
-        int Q3_2 = Exercise3_7.Q3_2();
-        int Q3_3 = Exercise3_7.Q3_3();
+        int Q3_1 = Q3_1();
+        int Q3_2 = Q3_2();
+        int Q3_3 = Q3_3();
 
         System.out.printf("(Q1) It took %d people to find 3 people with the same birthday.\n", Q3_1);
         System.out.printf("(Q2) A random group of 365 people had %d unique birthdays.\n", Q3_2);

@@ -1,6 +1,6 @@
 public class Exercise4_1 {
     public static void main(String[] args) {
-        Exercise4_1.printCapitalized("Now is the time to act!");
+        printCapitalized("Now is the time to act!");
     }
 
     public static void printCapitalized(String sentence) {

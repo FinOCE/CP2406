@@ -55,7 +55,7 @@ public class Exercise6_2 extends Application {
         
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        stage.setTitle("Exercise 6.1");
+        stage.setTitle("Exercise 6.2");
         stage.setResizable(false);
         stage.show();
 

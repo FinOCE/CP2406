@@ -167,6 +167,8 @@ public class Exercise7_7 extends Application {
             messageLabel.setText("White's turn");
             newGameButton.setDisable(true);
             resignButton.setDisable(false);
+
+            drawBoard();
         }
 
         public void resignGame() {

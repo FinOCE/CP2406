@@ -30,6 +30,12 @@ public class Exercise8_4 {
                 }
 
                 double result = expr.value(value);
+                
+                if (Double.isNaN(result)) {
+                    System.out.println("There is no solution at this value (NaN)");
+                    continue;
+                }
+
                 System.out.printf("f(%s) = %s\n", raw, result);
             }
         }
